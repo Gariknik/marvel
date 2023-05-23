@@ -27,6 +27,7 @@ class CharInfo extends Component {
         }
     }
 
+
     updateChar = () => {
         const {charId} = this.props;
         if (!charId) {
@@ -75,7 +76,6 @@ class CharInfo extends Component {
                 {errorMessage}
                 {spinner}
                 {content}
-
             </div>
         )
     }
